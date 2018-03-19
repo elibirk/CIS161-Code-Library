@@ -1,7 +1,7 @@
 void RandomDirection(int presr, int presc, int &newr, int &newc){
 	/* ========================================================
-	Leah Perry								CIS 161 Spring 2015
-	MP6							 			 Submitted: 4/25/15
+	Leah Perry							CIS 161 Spring 2015
+	MP6							 	Submitted: 4/25/15
 	Chooses a direction						Revised on: -------
 
 
