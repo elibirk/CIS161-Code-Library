@@ -1,7 +1,7 @@
 ifstream OpenInputFile(string file) {
 	/* ========================================================
-	Leah Perry								CIS 161 Spring 2015
-	MP1							 			 Submitted: 1/30/15
+	Leah Perry							CIS 161 Spring 2015
+	MP1							 	Submitted: 1/30/15
 	Opens Input File						Revised on: -------
 
 
@@ -9,7 +9,7 @@ ifstream OpenInputFile(string file) {
 	Variable				Used to
 	--------				-------
 	string file				get filename
-	ifstream instream		create input stream to file
+	ifstream instream			create input stream to file
 
 	Functions Called		What They Do
 	----------------		------------
