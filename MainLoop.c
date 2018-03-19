@@ -1,15 +1,15 @@
 int MainLoop()
 {
 	/* ========================================================
-	Leah Perry								CIS 161 Spring 2015
-	MP1							 			 Submitted: 1/30/15
+	Leah Perry					CIS 161 Spring 2015
+	MP1						Submitted: 1/30/15
 	Does the User Want to Rerun Code?		Revised on: -------
 
 
 	Data Dictionary
 	Variable				Used to
 	--------				-------
-	int MainLoopInput		holds value to determine answer
+	int MainLoopInput			holds value to determine answer
 	int ans					hold int value to return results
 
 	Functions Called		What They Do
