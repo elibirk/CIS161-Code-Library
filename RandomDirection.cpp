@@ -1,8 +1,8 @@
 void RandomDirection(int presr, int presc, int &newr, int &newc){
 	/* ========================================================
-	Leah Perry							CIS 161 Spring 2015
-	MP6							 	Submitted: 4/25/15
-	Chooses a direction						Revised on: -------
+	Leah Perry				CIS 161 Spring 2015
+	MP6					Submitted: 4/25/15
+	Chooses a direction			Revised on: -------
 
 
 	Data Dictionary
@@ -14,8 +14,8 @@ void RandomDirection(int presr, int presc, int &newr, int &newc){
 	int newc				store and change new column
 	int dir					random direction 
 
-	Functions Called		What They Do
-	----------------		------------
+	Functions Called			What They Do
+	----------------			------------
 
 	==========================================================*/
 
@@ -24,21 +24,20 @@ void RandomDirection(int presr, int presc, int &newr, int &newc){
 	srand(time(NULL));
 	while (dir == 5) {
 		dir = rand() % 9 + 1;//random number 1 through 9
-	}
+	}//end while
 
 	//set direction:
 	if (dir<4){
 		newr = presr - 1;
-	}
-	else if (dir >= 7) {
+	} else if (dir >= 7) {
 		newr = presr + 1;
-	}
+	}//end if/else if
+	
 	if (dir % 3 == 0){
 		newc = presc + 1;
-	}
-	else if (dir % 3 == 1) {
+	} else if (dir % 3 == 1) {
 		newc = presc - 1;
-	}
+	}//end if/else if
 
 
 }//RandomDirection
