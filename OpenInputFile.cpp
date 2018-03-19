@@ -1,8 +1,8 @@
 ifstream OpenInputFile(string file) {
 	/* ========================================================
-	Leah Perry							CIS 161 Spring 2015
-	MP1							 	Submitted: 1/30/15
-	Opens Input File						Revised on: -------
+	Leah Perry				CIS 161 Spring 2015
+	MP1					Submitted: 1/30/15
+	Opens Input File			Revised on: -------
 
 
 	Data Dictionary
@@ -11,8 +11,8 @@ ifstream OpenInputFile(string file) {
 	string file				get filename
 	ifstream instream			create input stream to file
 
-	Functions Called		What They Do
-	----------------		------------
+	Functions Called			What They Do
+	----------------			------------
 
 	==========================================================*/
 	ifstream instream;
