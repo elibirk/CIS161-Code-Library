@@ -1,8 +1,8 @@
 ofstream OpenOutputFile(string file) {
 	/* ========================================================
-	Leah Perry							CIS 161 Spring 2015
-	MP1							 	Submitted: 1/30/15
-	Opens Output File						Revised on: -------
+	Leah Perry				CIS 161 Spring 2015
+	MP1					Submitted: 1/30/15
+	Opens Output File			Revised on: -------
 
 
 	Data Dictionary
