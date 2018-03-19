@@ -1,8 +1,8 @@
 void PrintDirection(int presr, int presc, int newr, int newc, ofstream &outputstream){
 	/* ========================================================
-	Leah Perry						CIS 161 Spring 2015
-	MP6							Submitted: 4/25/15
-	Prints direction chosen					Revised on: -------
+	Leah Perry				CIS 161 Spring 2015
+	MP6					Submitted: 4/25/15
+	Prints direction chosen			Revised on: -------
 
 
 	Data Dictionary
@@ -13,8 +13,8 @@ void PrintDirection(int presr, int presc, int newr, int newc, ofstream &outputst
 	int newr				store new row
 	int newc				store new column
 
-	Functions Called		What They Do
-	----------------		------------
+	Functions Called			What They Do
+	----------------			------------
 
 	==========================================================*/
 
