@@ -1,7 +1,7 @@
 void PrintArray(char room[14][14], ofstream &outputstream) {
 	/* ========================================================
-	Leah Perry								CIS 161 Spring 2015
-	MP6							 			 Submitted: 4/25/15
+	Leah Perry							CIS 161 Spring 2015
+	MP6							 	Submitted: 4/25/15
 	Prints the Array						Revised on: -------
 
 
