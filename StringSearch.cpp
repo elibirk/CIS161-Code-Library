@@ -14,14 +14,15 @@ void StringSearch(string FullStr, string FindTerm, ofstream &Output) {
 	int size				stores the size of the term
 	int i					determining how many times for should loop
 
-	Functions Called		What They Do
-	----------------		------------
+	Functions Called			What They Do
+	----------------			------------
 
 	==========================================================*/
 
 	int found; //position where the term is found
 	int size = FindTerm.size();//gets the size of the term
 	found = FullStr.find(FindTerm); //finds position of term within FullStr
+	
 	if (found == string::npos){ //if it was not found
 		cout << "Term was not found within file." << endl;
 		Output << "Term was not found within file." << endl;
