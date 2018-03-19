@@ -1,7 +1,7 @@
 ofstream OpenOutputFile(string file) {
 	/* ========================================================
-	Leah Perry								CIS 161 Spring 2015
-	MP1							 			 Submitted: 1/30/15
+	Leah Perry							CIS 161 Spring 2015
+	MP1							 	Submitted: 1/30/15
 	Opens Output File						Revised on: -------
 
 
@@ -9,7 +9,7 @@ ofstream OpenOutputFile(string file) {
 	Variable				Used to
 	--------				-------
 	string file				get filename
-	ofstream outstream		create output stream to file
+	ofstream outstream			create output stream to file
 
 	Functions Called		What They Do
 	----------------		------------
