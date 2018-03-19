@@ -15,8 +15,8 @@ string StringReplace(string FullStr, int count, string Replacement, ofstream&Out
 	int count2				points to the characters in FullStr, in order to collect tempReplace
 	char ch					characters to add to tempReplace
 
-	Functions Called		What They Do
-	----------------		------------
+	Functions Called			What They Do
+	----------------			------------
 
 	==========================================================*/
 	string tempReplace;
@@ -30,6 +30,7 @@ string StringReplace(string FullStr, int count, string Replacement, ofstream&Out
 		count++;//increment position
 		ch = FullStr[count];//ch is next char from file
 	}//end while
+	
 	FullStr.replace(count2, tempReplace.length(), Replacement); //replaces the content
 	cout << tempReplace << " replaced with " << Replacement << "." << endl;
 	Output << tempReplace << " replaced with " << Replacement << "." << endl;
